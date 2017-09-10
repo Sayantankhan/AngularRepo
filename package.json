@@ -1,0 +1,14 @@
+{
+  "name": "angularnode",
+  "version": "1.0.0",
+  "description": "angular test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-http-server": "^4.3.0"
+  }
+}
