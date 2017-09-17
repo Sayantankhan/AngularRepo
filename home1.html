@@ -6,14 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
-<body ng-app="">
+<body >
   <form action="" method="">
     <div class="container">
-      <h2>Login Page</h2>
+      <h2>Login Page {{message}}</h2>
+      <p>{{myUrl}}</p>
+      <h2>{{clock}}</h2>
       <div class="form-group">
             <label for="email">Email:</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" ng-model="name">
-            {{name}}
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+
       </div>
       <div class="form-group">
             <label for="pwd">Password:</label>
