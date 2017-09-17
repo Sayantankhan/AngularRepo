@@ -1,4 +1,6 @@
-var app = angular.module("routeapp", ["ngRoute"]);
+"use strict";
+
+var app = angular.module('routeapp', ['ngRoute','control']);
 app.config(function($routeProvider,$locationProvider) {
 
     $routeProvider
@@ -9,7 +11,8 @@ app.config(function($routeProvider,$locationProvider) {
         templateUrl: "home1.html"
     })
     .when("/about_page", {
-        templateUrl : "about.html"
+        templateUrl : "about.html",
+        controller: "HelloWorldController"
     })
     .when("/red", {
         templateUrl : "home1.html"
